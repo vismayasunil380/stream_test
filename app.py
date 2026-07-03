@@ -1,9 +1,9 @@
 import streamlit as st
-st.title("take the input")
+st.title("Take the input")
 #Take a user imput\
-name=st.text_input("enter your name")
+name=st.text_input("Enter your name")
 
 
 
-if st.button("submit"):
+if st.button("Submit"):
   st.write(f"print the name: {name}")
